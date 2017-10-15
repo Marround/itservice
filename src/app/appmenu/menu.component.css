@@ -1,0 +1,20 @@
+nav {
+  position: relative;
+  z-index: 10;
+  color: hsla(0,0%,100%,.87);
+  background-color: #3f51b5;
+  padding: 8px 16px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+nav a.active {
+  background-color: royalblue;
+}
+
+.flex-spacer {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
