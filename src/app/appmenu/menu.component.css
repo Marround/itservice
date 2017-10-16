@@ -8,6 +8,11 @@ nav {
   display: flex;
 }
 
+nav a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 nav a.active {
   background-color: royalblue;
 }
